@@ -1,13 +1,12 @@
-name: example-environment
+name: voila
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - ipyvolume
+  - bqplot
+  - scipy
+  - ipympl
+  - voila=0.2.4
+  - ipympl
+  - xleaflet=0.11.1
+  - xeus-cling>=0.9
